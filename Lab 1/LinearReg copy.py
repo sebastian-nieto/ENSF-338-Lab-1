@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Step 1: Load the file
-with open('C:\\Users\\joeki\\Documents\\ENSF 338\\Lab1\\ENSF-338-Lab-1\\Lab 1\\large-file.json', 'r', encoding="UTF-8") as file:
+with open('Lab 1\\large-file.json', 'r', encoding="UTF-8") as file:
     data = json.load(file)
 
 total_time1 = 0
